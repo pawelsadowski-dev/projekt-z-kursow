@@ -1,20 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\spawe\\source\\repos\\KiK\\",
+  "WorkspaceRootPath": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "AbsoluteMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\spawe\\Downloads\\J\u0119zyk C\u002B\u002B\\Kurs j\u0119zyka c\u002B\u002B - zielony\\poszukiwacz\\funkcje.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFA161BE-6731-4EE9-926A-AFC233CAD374}|KiK.vcxproj|solutionrelative:MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -25,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,7 +33,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MyForm.h [Design]",
+              "DocumentMoniker": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.h",
+              "RelativeDocumentMoniker": "MyForm.h",
+              "ToolTip": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.h [Design]",
+              "RelativeToolTip": "MyForm.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-25T19:48:12.302Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "funkcje.cpp",
               "DocumentMoniker": "C:\\Users\\spawe\\Downloads\\J\u0119zyk C\u002B\u002B\\Kurs j\u0119zyka c\u002B\u002B - zielony\\poszukiwacz\\funkcje.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\J\u0119zyk C\u002B\u002B\\Kurs j\u0119zyka c\u002B\u002B - zielony\\poszukiwacz\\funkcje.cpp",
@@ -46,25 +58,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyForm.h [Design]",
-              "DocumentMoniker": "C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.h",
-              "RelativeDocumentMoniker": "MyForm.h",
-              "ToolTip": "C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.h [Design]",
-              "RelativeToolTip": "MyForm.h [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-19T12:12:53.332Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MyForm.h",
-              "DocumentMoniker": "C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.h",
+              "DocumentMoniker": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.h",
               "RelativeDocumentMoniker": "MyForm.h",
-              "ToolTip": "C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.h",
+              "ToolTip": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.h",
               "RelativeToolTip": "MyForm.h",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAKUBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAKwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-18T21:28:40.152Z",
               "EditorCaption": ""
@@ -73,9 +73,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MyForm.cpp",
-              "DocumentMoniker": "C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.cpp",
+              "DocumentMoniker": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.cpp",
               "RelativeDocumentMoniker": "MyForm.cpp",
-              "ToolTip": "C:\\Users\\spawe\\source\\repos\\KiK\\MyForm.cpp",
+              "ToolTip": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\KiK\\MyForm.cpp",
               "RelativeToolTip": "MyForm.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

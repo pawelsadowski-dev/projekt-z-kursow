@@ -200,6 +200,7 @@ namespace KiK {
 			// 
 			// C1
 			// 
+			this->C1->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"C1.ErrorImage")));
 			this->C1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"C1.Image")));
 			this->C1->Location = System::Drawing::Point(224, 65);
 			this->C1->Name = L"C1";
@@ -212,6 +213,7 @@ namespace KiK {
 			// 
 			// C2
 			// 
+			this->C2->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"C2.ErrorImage")));
 			this->C2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"C2.Image")));
 			this->C2->Location = System::Drawing::Point(224, 157);
 			this->C2->Name = L"C2";
@@ -224,6 +226,7 @@ namespace KiK {
 			// 
 			// C3
 			// 
+			this->C3->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"C3.ErrorImage")));
 			this->C3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"C3.Image")));
 			this->C3->Location = System::Drawing::Point(224, 257);
 			this->C3->Name = L"C3";
@@ -236,6 +239,7 @@ namespace KiK {
 			// 
 			// B2
 			// 
+			this->B2->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"B2.ErrorImage")));
 			this->B2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"B2.Image")));
 			this->B2->Location = System::Drawing::Point(114, 157);
 			this->B2->Name = L"B2";
@@ -248,6 +252,7 @@ namespace KiK {
 			// 
 			// B3
 			// 
+			this->B3->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"B3.ErrorImage")));
 			this->B3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"B3.Image")));
 			this->B3->Location = System::Drawing::Point(114, 257);
 			this->B3->Name = L"B3";
@@ -260,6 +265,7 @@ namespace KiK {
 			// 
 			// A2
 			// 
+			this->A2->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"A2.ErrorImage")));
 			this->A2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"A2.Image")));
 			this->A2->Location = System::Drawing::Point(10, 157);
 			this->A2->Name = L"A2";
@@ -272,6 +278,7 @@ namespace KiK {
 			// 
 			// A3
 			// 
+			this->A3->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"A3.ErrorImage")));
 			this->A3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"A3.Image")));
 			this->A3->Location = System::Drawing::Point(10, 257);
 			this->A3->Name = L"A3";

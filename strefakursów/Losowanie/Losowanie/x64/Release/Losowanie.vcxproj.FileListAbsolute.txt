@@ -1,3 +1,0 @@
-C:\Users\spawe\source\repos\Losowanie\Losowanie\x64\Release\Losowanie.vcxproj.AssemblyReference.cache
-C:\Users\spawe\source\repos\Losowanie\Losowanie\x64\Release\Losowanie.MyForm.resources
-C:\Users\spawe\source\repos\Losowanie\Losowanie\x64\Release\Losowanie.vcxproj.GenerateResource.cache

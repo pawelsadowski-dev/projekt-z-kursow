@@ -24,4 +24,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\kolko.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\krzyzyk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\pytajnik.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\tlo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

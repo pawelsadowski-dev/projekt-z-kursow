@@ -132,6 +132,12 @@
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\kolko.png" />
+    <Image Include="Images\krzyzyk.png" />
+    <Image Include="Images\pytajnik.png" />
+    <Image Include="Images\tlo.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

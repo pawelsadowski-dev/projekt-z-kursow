@@ -1,0 +1,3 @@
+C:\Users\spawe\source\repos\KiK\KiK\x64\Debug\KiK.vcxproj.AssemblyReference.cache
+C:\Users\spawe\source\repos\KiK\KiK\x64\Debug\KiK.MyForm.resources
+C:\Users\spawe\source\repos\KiK\KiK\x64\Debug\KiK.vcxproj.GenerateResource.cache

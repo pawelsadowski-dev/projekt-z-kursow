@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3743905-C3A4-4494-94A4-19CB9010E237}|Kalkulator.vcxproj|C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3743905-C3A4-4494-94A4-19CB9010E237}|Kalkulator.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3743905-C3A4-4494-94A4-19CB9010E237}|Kalkulator.vcxproj|C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\Pomoc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3743905-C3A4-4494-94A4-19CB9010E237}|Kalkulator.vcxproj|solutionrelative:Pomoc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyForm.h",
-              "DocumentMoniker": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\MyForm.h",
-              "RelativeDocumentMoniker": "MyForm.h",
-              "ToolTip": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\MyForm.h",
-              "RelativeToolTip": "MyForm.h",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAmwNYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Pomoc.h",
+              "DocumentMoniker": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\Pomoc.h",
+              "RelativeDocumentMoniker": "Pomoc.h",
+              "ToolTip": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\Pomoc.h",
+              "RelativeToolTip": "Pomoc.h",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv2sAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T11:16:20.2Z",
+              "WhenOpened": "2025-01-26T11:42:24.772Z",
               "EditorCaption": ""
             },
             {
@@ -47,11 +51,24 @@
               "Title": "MyForm.h [Design]",
               "DocumentMoniker": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\MyForm.h",
               "RelativeDocumentMoniker": "MyForm.h",
-              "ToolTip": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\MyForm.h [Design]",
-              "RelativeToolTip": "MyForm.h [Design]",
+              "ToolTip": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\MyForm.h [Design]*",
+              "RelativeToolTip": "MyForm.h [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T10:46:21.087Z",
+              "WhenOpened": "2025-01-26T11:36:28.908Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyForm.h",
+              "DocumentMoniker": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\MyForm.h",
+              "RelativeDocumentMoniker": "MyForm.h",
+              "ToolTip": "C:\\Users\\spawe\\projekty-z-kursow\\strefakurs\u00F3w\\Kalkulator\\MyForm.h*",
+              "RelativeToolTip": "MyForm.h*",
+              "ViewState": "AgIAAKYCAAAAAAAAAAAjwLgCAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-26T11:16:20.2Z",
+              "EditorCaption": ""
             }
           ]
         }

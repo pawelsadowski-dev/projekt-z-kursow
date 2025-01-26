@@ -1,4 +1,5 @@
   Kalkulator.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Kalkulator.Pomoc.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly Kalkulator, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey

@@ -1,0 +1,3 @@
+C:\Users\spawe\projekty-z-kursow\strefakursów\Kalkulator\Kalkulator\x64\Debug\Kalkulator.vcxproj.AssemblyReference.cache
+C:\Users\spawe\projekty-z-kursow\strefakursów\Kalkulator\Kalkulator\x64\Debug\Kalkulator.MyForm.resources
+C:\Users\spawe\projekty-z-kursow\strefakursów\Kalkulator\Kalkulator\x64\Debug\Kalkulator.vcxproj.GenerateResource.cache

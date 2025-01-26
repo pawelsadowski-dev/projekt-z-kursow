@@ -8,7 +8,7 @@ using namespace System::Windows::Forms;
 	int main(array<System::String ^> ^args)
 	{
 		Application::EnableVisualStyles();
-		Application::SetCompatibleTextRenderingDefault(true);
+		Application::SetCompatibleTextRenderingDefault(false);
 		KiK::MyForm^ forma = gcnew KiK::MyForm();
 		Application::Run(forma);
 		return 0;

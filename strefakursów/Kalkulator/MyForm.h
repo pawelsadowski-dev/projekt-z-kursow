@@ -1,4 +1,5 @@
 ﻿#include "Pomoc.h"
+#include <cmath>
 #pragma once
 
 namespace Kalkulator {
@@ -157,7 +158,7 @@ namespace Kalkulator {
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
-			this->menuStrip1->Size = System::Drawing::Size(380, 24);
+			this->menuStrip1->Size = System::Drawing::Size(379, 24);
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
@@ -176,23 +177,20 @@ namespace Kalkulator {
 			// przypnijToolStripMenuItem
 			// 
 			this->przypnijToolStripMenuItem->Name = L"przypnijToolStripMenuItem";
-			this->przypnijToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->przypnijToolStripMenuItem->Size = System::Drawing::Size(118, 22);
 			this->przypnijToolStripMenuItem->Text = L"Przypnij";
-			this->przypnijToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::przypnijToolStripMenuItem_Click);
 			// 
 			// okinekoToolStripMenuItem
 			// 
 			this->okinekoToolStripMenuItem->Name = L"okinekoToolStripMenuItem";
-			this->okinekoToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->okinekoToolStripMenuItem->Size = System::Drawing::Size(118, 22);
 			this->okinekoToolStripMenuItem->Text = L"Okienko";
-			this->okinekoToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::okinekoToolStripMenuItem_Click);
 			// 
 			// zamknjToolStripMenuItem
 			// 
 			this->zamknjToolStripMenuItem->Name = L"zamknjToolStripMenuItem";
-			this->zamknjToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->zamknjToolStripMenuItem->Size = System::Drawing::Size(118, 22);
 			this->zamknjToolStripMenuItem->Text = L"Zamknj";
-			this->zamknjToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::zamknjToolStripMenuItem_Click);
 			// 
 			// widokToolStripMenuItem
 			// 
@@ -209,27 +207,25 @@ namespace Kalkulator {
 			// standardowyToolStripMenuItem
 			// 
 			this->standardowyToolStripMenuItem->Name = L"standardowyToolStripMenuItem";
-			this->standardowyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->standardowyToolStripMenuItem->Size = System::Drawing::Size(163, 22);
 			this->standardowyToolStripMenuItem->Text = L"Standardowy";
-			this->standardowyToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::standardowyToolStripMenuItem_Click);
 			// 
 			// finansowyToolStripMenuItem
 			// 
 			this->finansowyToolStripMenuItem->Name = L"finansowyToolStripMenuItem";
-			this->finansowyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->finansowyToolStripMenuItem->Size = System::Drawing::Size(163, 22);
 			this->finansowyToolStripMenuItem->Text = L"Finansowy";
-			this->finansowyToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::finansowyToolStripMenuItem_Click);
 			// 
 			// programistycznyToolStripMenuItem
 			// 
 			this->programistycznyToolStripMenuItem->Name = L"programistycznyToolStripMenuItem";
-			this->programistycznyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->programistycznyToolStripMenuItem->Size = System::Drawing::Size(163, 22);
 			this->programistycznyToolStripMenuItem->Text = L"Programistyczny";
 			// 
 			// gramToolStripMenuItem
 			// 
 			this->gramToolStripMenuItem->Name = L"gramToolStripMenuItem";
-			this->gramToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->gramToolStripMenuItem->Size = System::Drawing::Size(163, 22);
 			this->gramToolStripMenuItem->Text = L"Gram";
 			// 
 			// pomocToolStripMenuItem
@@ -275,6 +271,7 @@ namespace Kalkulator {
 			this->siedem->TabIndex = 2;
 			this->siedem->Text = L"7";
 			this->siedem->UseVisualStyleBackColor = false;
+			this->siedem->Click += gcnew System::EventHandler(this, &MyForm::siedem_Click);
 			// 
 			// osiem
 			// 
@@ -289,6 +286,7 @@ namespace Kalkulator {
 			this->osiem->TabIndex = 3;
 			this->osiem->Text = L"8";
 			this->osiem->UseVisualStyleBackColor = false;
+			this->osiem->Click += gcnew System::EventHandler(this, &MyForm::osiem_Click);
 			// 
 			// dziewiec
 			// 
@@ -303,6 +301,7 @@ namespace Kalkulator {
 			this->dziewiec->TabIndex = 4;
 			this->dziewiec->Text = L"9";
 			this->dziewiec->UseVisualStyleBackColor = false;
+			this->dziewiec->Click += gcnew System::EventHandler(this, &MyForm::dziewiec_Click);
 			// 
 			// cztery
 			// 
@@ -317,7 +316,7 @@ namespace Kalkulator {
 			this->cztery->TabIndex = 5;
 			this->cztery->Text = L"4";
 			this->cztery->UseVisualStyleBackColor = false;
-			this->cztery->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
+			this->cztery->Click += gcnew System::EventHandler(this, &MyForm::cztery_Click);
 			// 
 			// piec
 			// 
@@ -332,6 +331,7 @@ namespace Kalkulator {
 			this->piec->TabIndex = 6;
 			this->piec->Text = L"5";
 			this->piec->UseVisualStyleBackColor = false;
+			this->piec->Click += gcnew System::EventHandler(this, &MyForm::piec_Click);
 			// 
 			// szesc
 			// 
@@ -346,6 +346,7 @@ namespace Kalkulator {
 			this->szesc->TabIndex = 7;
 			this->szesc->Text = L"6";
 			this->szesc->UseVisualStyleBackColor = false;
+			this->szesc->Click += gcnew System::EventHandler(this, &MyForm::szesc_Click);
 			// 
 			// trzy
 			// 
@@ -360,6 +361,7 @@ namespace Kalkulator {
 			this->trzy->TabIndex = 10;
 			this->trzy->Text = L"3";
 			this->trzy->UseVisualStyleBackColor = false;
+			this->trzy->Click += gcnew System::EventHandler(this, &MyForm::trzy_Click);
 			// 
 			// dwa
 			// 
@@ -374,6 +376,7 @@ namespace Kalkulator {
 			this->dwa->TabIndex = 9;
 			this->dwa->Text = L"2";
 			this->dwa->UseVisualStyleBackColor = false;
+			this->dwa->Click += gcnew System::EventHandler(this, &MyForm::dwa_Click);
 			// 
 			// jeden
 			// 
@@ -388,7 +391,7 @@ namespace Kalkulator {
 			this->jeden->TabIndex = 8;
 			this->jeden->Text = L"1";
 			this->jeden->UseVisualStyleBackColor = false;
-			this->jeden->Click += gcnew System::EventHandler(this, &MyForm::button8_Click);
+			this->jeden->Click += gcnew System::EventHandler(this, &MyForm::jeden_Click);
 			// 
 			// zero
 			// 
@@ -402,6 +405,7 @@ namespace Kalkulator {
 			this->zero->TabIndex = 11;
 			this->zero->Text = L"0";
 			this->zero->UseVisualStyleBackColor = false;
+			this->zero->Click += gcnew System::EventHandler(this, &MyForm::zero_Click);
 			// 
 			// przecinek
 			// 
@@ -415,6 +419,7 @@ namespace Kalkulator {
 			this->przecinek->TabIndex = 12;
 			this->przecinek->Text = L",";
 			this->przecinek->UseVisualStyleBackColor = false;
+			this->przecinek->Click += gcnew System::EventHandler(this, &MyForm::przecinek_Click);
 			// 
 			// przeczenie
 			// 
@@ -428,6 +433,7 @@ namespace Kalkulator {
 			this->przeczenie->TabIndex = 13;
 			this->przeczenie->Text = L"±";
 			this->przeczenie->UseVisualStyleBackColor = false;
+			this->przeczenie->Click += gcnew System::EventHandler(this, &MyForm::przeczenie_Click);
 			// 
 			// button1
 			// 
@@ -435,12 +441,13 @@ namespace Kalkulator {
 			this->button1->BackColor = System::Drawing::Color::Brown;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->button1->Location = System::Drawing::Point(269, 201);
+			this->button1->Location = System::Drawing::Point(271, 201);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(50, 105);
 			this->button1->TabIndex = 15;
 			this->button1->Text = L"+";
 			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// button2
 			// 
@@ -448,12 +455,13 @@ namespace Kalkulator {
 			this->button2->BackColor = System::Drawing::Color::DarkSalmon;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->button2->Location = System::Drawing::Point(322, 200);
+			this->button2->Location = System::Drawing::Point(326, 200);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(50, 107);
 			this->button2->TabIndex = 16;
 			this->button2->Text = L"=";
 			this->button2->UseVisualStyleBackColor = false;
+			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
 			// button3
 			// 
@@ -461,12 +469,13 @@ namespace Kalkulator {
 			this->button3->BackColor = System::Drawing::SystemColors::Info;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->button3->Location = System::Drawing::Point(269, 95);
+			this->button3->Location = System::Drawing::Point(271, 95);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(50, 50);
 			this->button3->TabIndex = 17;
 			this->button3->Text = L"CE";
 			this->button3->UseVisualStyleBackColor = false;
+			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
 			// button4
 			// 
@@ -474,12 +483,13 @@ namespace Kalkulator {
 			this->button4->BackColor = System::Drawing::SystemColors::Info;
 			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->button4->Location = System::Drawing::Point(322, 95);
+			this->button4->Location = System::Drawing::Point(326, 95);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(50, 50);
 			this->button4->TabIndex = 18;
 			this->button4->Text = L"C";
 			this->button4->UseVisualStyleBackColor = false;
+			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
 			// button5
 			// 
@@ -494,6 +504,7 @@ namespace Kalkulator {
 			this->button5->TabIndex = 19;
 			this->button5->Text = L"x²";
 			this->button5->UseVisualStyleBackColor = false;
+			this->button5->Click += gcnew System::EventHandler(this, &MyForm::button5_Click);
 			// 
 			// button6
 			// 
@@ -508,6 +519,7 @@ namespace Kalkulator {
 			this->button6->TabIndex = 20;
 			this->button6->Text = L"√";
 			this->button6->UseVisualStyleBackColor = false;
+			this->button6->Click += gcnew System::EventHandler(this, &MyForm::button6_Click);
 			// 
 			// button7
 			// 
@@ -516,12 +528,13 @@ namespace Kalkulator {
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));
 			this->button7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->button7->Location = System::Drawing::Point(269, 150);
+			this->button7->Location = System::Drawing::Point(271, 150);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(50, 50);
 			this->button7->TabIndex = 21;
 			this->button7->Text = L"x³";
 			this->button7->UseVisualStyleBackColor = false;
+			this->button7->Click += gcnew System::EventHandler(this, &MyForm::button7_Click);
 			// 
 			// button8
 			// 
@@ -530,12 +543,13 @@ namespace Kalkulator {
 				static_cast<System::Int32>(static_cast<System::Byte>(0)));
 			this->button8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->button8->Location = System::Drawing::Point(322, 151);
+			this->button8->Location = System::Drawing::Point(326, 151);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(50, 50);
 			this->button8->TabIndex = 22;
 			this->button8->Text = L"³√";
 			this->button8->UseVisualStyleBackColor = false;
+			this->button8->Click += gcnew System::EventHandler(this, &MyForm::button8_Click);
 			// 
 			// button9
 			// 
@@ -550,6 +564,7 @@ namespace Kalkulator {
 			this->button9->TabIndex = 23;
 			this->button9->Text = L"%";
 			this->button9->UseVisualStyleBackColor = false;
+			this->button9->Click += gcnew System::EventHandler(this, &MyForm::button9_Click);
 			// 
 			// button10
 			// 
@@ -563,6 +578,7 @@ namespace Kalkulator {
 			this->button10->TabIndex = 24;
 			this->button10->Text = L"-";
 			this->button10->UseVisualStyleBackColor = false;
+			this->button10->Click += gcnew System::EventHandler(this, &MyForm::button10_Click);
 			// 
 			// button11
 			// 
@@ -577,6 +593,7 @@ namespace Kalkulator {
 			this->button11->TabIndex = 25;
 			this->button11->Text = L"/";
 			this->button11->UseVisualStyleBackColor = false;
+			this->button11->Click += gcnew System::EventHandler(this, &MyForm::button11_Click);
 			// 
 			// button12
 			// 
@@ -606,6 +623,7 @@ namespace Kalkulator {
 			this->button13->TabIndex = 27;
 			this->button13->Text = L"½";
 			this->button13->UseVisualStyleBackColor = false;
+			this->button13->Click += gcnew System::EventHandler(this, &MyForm::button13_Click);
 			// 
 			// button14
 			// 
@@ -620,6 +638,7 @@ namespace Kalkulator {
 			this->button14->TabIndex = 28;
 			this->button14->Text = L"‰";
 			this->button14->UseVisualStyleBackColor = false;
+			this->button14->Click += gcnew System::EventHandler(this, &MyForm::button14_Click);
 			// 
 			// MyForm
 			// 
@@ -627,7 +646,7 @@ namespace Kalkulator {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(64)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
 				static_cast<System::Int32>(static_cast<System::Byte>(64)));
-			this->ClientSize = System::Drawing::Size(380, 311);
+			this->ClientSize = System::Drawing::Size(379, 311);
 			this->Controls->Add(this->button14);
 			this->Controls->Add(this->button13);
 			this->Controls->Add(this->button12);
@@ -660,47 +679,190 @@ namespace Kalkulator {
 			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"MyForm";
 			this->Text = L"Kalkulator";
-			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
+		double pierwsza, druga, wynik;
+		bool status;
+		char operacja;
+
 #pragma endregion
-	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
+	
+private: bool sprawdz_p()
+{
+	if (Wynik->Text->Contains(","))
+		return true;
+	else
+		return false;
+}
+private: void Wypisz(String^ liczba) {
+	if (liczba == "," && sprawdz_p()) {
+		return;
 	}
-	private: System::Void pomocToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-		Pomoc^ pomoc = gcnew Pomoc();
-		pomoc->Show();
+
+	if (Wynik->Text == "0" || status) {
+		Wynik->Text = (liczba == ",") ? "0," : liczba;
+		status = false;
 	}
-private: System::Void standardowyToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-	MyForm::Width = 300;
-	MyForm::Height = 425;
+	else {
+		Wynik->Text += liczba;
+	}
 }
-private: System::Void finansowyToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-	MyForm::Width = 300;
-	MyForm::Height = 650;
+
+private: System::Void jeden_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("1");
 }
-private: System::Void przypnijToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-	MyForm::FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
-	TopMost = true;
+private: System::Void dwa_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("2");
 }
-private: System::Void okinekoToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-	MyForm::FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedDialog;
-	TopMost = false;
+private: System::Void trzy_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("3");
 }
-private: System::Void zamknjToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (MessageBox::Show("Czy zamknąć Kalkulator ?","Kalkulator",MessageBoxButtons::YesNo,MessageBoxIcon::Question)==System::Windows::Forms::DialogResult::Yes)
-		Application::Exit();
+
+private: System::Void cztery_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("4");
 }
-private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void piec_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("5");
 }
-private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
-	Wynik->Text = "1";
-	System::Object^ wynik = sender;
+private: System::Void szesc_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("6");
+}
+private: System::Void siedem_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("7");
+}
+private: System::Void osiem_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("8");
+}
+private: System::Void dziewiec_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("9");
+}
+private: System::Void zero_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz("0");
+}
+private: System::Void przecinek_Click(System::Object^ sender, System::EventArgs^ e) {
+	Wypisz(",");
+}
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	operacja = '+';
+	status = true;
 }
 private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	operacja = '*';
+	status = true;
+
+}
+private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	if (pierwsza >= 0) {
+		Wynik->Text = Convert::ToString(sqrt(pierwsza));
+	}
+	else {
+		MessageBox::Show("Nie można dzielić pierwiastkować liczby ujemnej!", "Komunikat", MessageBoxButtons::OK, MessageBoxIcon::Error);
+	}
+}
+
+private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	operacja = '%';
+	status = true;
+}
+
+private: System::Void button14_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	operacja = 'p';
+	status = true;
+}
+private: void Resetuj() {
+	Wynik->Text = "0";
+	druga = 0;
+	status = false;
+}
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+	Resetuj();
+}
+private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = 0;
+	Resetuj();
+}
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+	status = true;
+	druga = Convert::ToDouble(Wynik->Text);
+	switch (operacja)
+	{
+	case '+':
+		Wynik->Text = Convert::ToString(pierwsza + druga);
+		break;
+	case '-':
+		Wynik->Text = Convert::ToString(pierwsza - druga);
+		break;
+	case '*':
+		Wynik->Text = Convert::ToString(pierwsza * druga);
+		break;
+	case '/':
+		if (druga != 0) {
+			Wynik->Text = Convert::ToString(pierwsza / druga);
+		}
+		else {
+			MessageBox::Show("Nie można dzielić przez zero!", "Komunikat", MessageBoxButtons::OK, MessageBoxIcon::Error);
+		}
+		break;
+	case '%':
+		druga = druga != pierwsza ? druga : druga = 1;
+		Wynik->Text = Convert::ToString((pierwsza / 100) * druga);
+		break;
+	case 'p':
+		druga = druga != pierwsza ? druga : druga = 1;
+		Wynik->Text = Convert::ToString((pierwsza / 1000) * druga);
+		break;
+	default:
+		break;
+	}
+}
+private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	operacja = '/';
+	status = true;
+}
+private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	operacja = '-';
+	status = true;
+}
+private: System::Void przeczenie_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	pierwsza = -pierwsza;
+	Wynik->Text = Convert::ToString(pierwsza);
+}
+private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	pierwsza = pow(pierwsza,2);
+	Wynik->Text = Convert::ToString(pierwsza);
+}
+private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	pierwsza = pow(pierwsza, 3);
+	Wynik->Text = Convert::ToString(pierwsza);
+}
+private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	pierwsza = cbrt(pierwsza);
+	Wynik->Text = Convert::ToString(pierwsza);
+}
+private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
+	pierwsza = Convert::ToDouble(Wynik->Text);
+	pierwsza = pierwsza/2;
+	Wynik->Text = Convert::ToString(pierwsza);
+}
+
+private: System::Void pomocToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	Pomoc^ Onas = gcnew Pomoc();
+	Onas->Show();
 }
 };
-}
+};

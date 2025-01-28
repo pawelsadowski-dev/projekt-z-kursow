@@ -21,12 +21,18 @@
     <ClCompile Include="Pomoc.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="programistyczny.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Pomoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="programistyczny.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

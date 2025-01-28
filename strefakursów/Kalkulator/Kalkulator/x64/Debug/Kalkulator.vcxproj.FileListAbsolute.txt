@@ -2,3 +2,4 @@ C:\Users\spawe\projekty-z-kursow\strefakursów\Kalkulator\Kalkulator\x64\Debug\K
 C:\Users\spawe\projekty-z-kursow\strefakursów\Kalkulator\Kalkulator\x64\Debug\Kalkulator.MyForm.resources
 C:\Users\spawe\projekty-z-kursow\strefakursów\Kalkulator\Kalkulator\x64\Debug\Kalkulator.vcxproj.GenerateResource.cache
 C:\Users\spawe\projekty-z-kursow\strefakursów\Kalkulator\Kalkulator\x64\Debug\Kalkulator.Pomoc.resources
+C:\Users\spawe\projekty-z-kursow\strefakursów\Kalkulator\Kalkulator\x64\Debug\Kalkulator.programistyczny.resources

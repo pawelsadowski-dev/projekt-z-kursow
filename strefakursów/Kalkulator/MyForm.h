@@ -1,4 +1,5 @@
 ﻿#include "Pomoc.h"
+#include "programistyczny.h"
 #include <cmath>
 #pragma once
 
@@ -20,9 +21,9 @@ namespace Kalkulator {
 		MyForm(void)
 		{
 			InitializeComponent();
-			//
-			//TODO: Add the constructor code here
-			//
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->MaximizeBox = false;
+			this->MinimizeBox = true;
 		}
 
 	protected:
@@ -207,25 +208,26 @@ namespace Kalkulator {
 			// standardowyToolStripMenuItem
 			// 
 			this->standardowyToolStripMenuItem->Name = L"standardowyToolStripMenuItem";
-			this->standardowyToolStripMenuItem->Size = System::Drawing::Size(163, 22);
+			this->standardowyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
 			this->standardowyToolStripMenuItem->Text = L"Standardowy";
 			// 
 			// finansowyToolStripMenuItem
 			// 
 			this->finansowyToolStripMenuItem->Name = L"finansowyToolStripMenuItem";
-			this->finansowyToolStripMenuItem->Size = System::Drawing::Size(163, 22);
+			this->finansowyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
 			this->finansowyToolStripMenuItem->Text = L"Finansowy";
 			// 
 			// programistycznyToolStripMenuItem
 			// 
 			this->programistycznyToolStripMenuItem->Name = L"programistycznyToolStripMenuItem";
-			this->programistycznyToolStripMenuItem->Size = System::Drawing::Size(163, 22);
+			this->programistycznyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
 			this->programistycznyToolStripMenuItem->Text = L"Programistyczny";
+			this->programistycznyToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::programistycznyToolStripMenuItem_Click);
 			// 
 			// gramToolStripMenuItem
 			// 
 			this->gramToolStripMenuItem->Name = L"gramToolStripMenuItem";
-			this->gramToolStripMenuItem->Size = System::Drawing::Size(163, 22);
+			this->gramToolStripMenuItem->Size = System::Drawing::Size(180, 22);
 			this->gramToolStripMenuItem->Text = L"Gram";
 			// 
 			// pomocToolStripMenuItem
@@ -246,6 +248,7 @@ namespace Kalkulator {
 			// 
 			this->Wynik->BackColor = System::Drawing::Color::Silver;
 			this->Wynik->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->Wynik->Dock = System::Windows::Forms::DockStyle::Top;
 			this->Wynik->Enabled = false;
 			this->Wynik->Font = (gcnew System::Drawing::Font(L"Modern No. 20", 39.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -253,7 +256,7 @@ namespace Kalkulator {
 			this->Wynik->Location = System::Drawing::Point(0, 24);
 			this->Wynik->Multiline = true;
 			this->Wynik->Name = L"Wynik";
-			this->Wynik->Size = System::Drawing::Size(382, 63);
+			this->Wynik->Size = System::Drawing::Size(379, 63);
 			this->Wynik->TabIndex = 1;
 			this->Wynik->Text = L"0";
 			this->Wynik->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
@@ -863,6 +866,11 @@ private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ 
 private: System::Void pomocToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	Pomoc^ Onas = gcnew Pomoc();
 	Onas->Show();
+}
+private: System::Void programistycznyToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	programistyczny^ Onas = gcnew programistyczny();
+	Onas->Show();
+	this->Hide(); 
 }
 };
 };

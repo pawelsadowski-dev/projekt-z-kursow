@@ -81,6 +81,7 @@ namespace Kalkulator {
 			this->Autor->TabIndex = 1;
 			this->Autor->Text = L"label1";
 			this->Autor->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->Autor->Click += gcnew System::EventHandler(this, &Pomoc::Autor_Click);
 			// 
 			// Pomoc
 			// 
